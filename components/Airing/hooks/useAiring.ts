@@ -1,7 +1,7 @@
 import { GET_AIRING_TODAY } from '@/client/queries';
 import { useQuery } from '@apollo/client/react';
 import { useCallback, useMemo } from 'react';
-import { limitRefresh } from '../../../client/client';
+import { limitRefresh } from '../../../client';
 
 export type SORT = 'TIME' | 'TIME_DESC';
 

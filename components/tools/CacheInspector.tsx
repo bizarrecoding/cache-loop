@@ -1,4 +1,4 @@
-import { client } from '@/client/client'
+import { client } from '@/client'
 import React, { useMemo, useState } from 'react'
 import { FlatList, StyleSheet, TouchableOpacity } from 'react-native'
 import { SearchHeader } from '../common/SearchInput'

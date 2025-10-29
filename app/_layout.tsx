@@ -6,7 +6,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import React, { memo, StrictMode, useEffect } from 'react';
 import 'react-native-reanimated';
 
-import { ApolloGQLProvider } from '@/client/client';
+import { ApolloGQLProvider } from '@/client';
 import { useColorScheme } from '@/components/useColorScheme';
 import { DarkTheme, LightTheme } from '@/constants/Colors';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
